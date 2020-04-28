@@ -8,7 +8,8 @@ body {
   color: aliceblue;
   font-family: 'Asar', serif;
 }
-body, header, section, footer {
+container{width: 1000px;}
+body, header, section, article, footer{
 	border: solid 1px;
 }
 
@@ -17,10 +18,11 @@ header {
 	background: #b27f7f;
   margin-top: 50px;
 }
-header, section, footer {
+header, section, article, footer {
 	padding: 50px;
 	margin-bottom: 50px;
 }
+article{width: inherit;}
 a {
 	font-family: 'Merriweather Sans', sans-serif;
 	color: aliceblue;
@@ -42,12 +44,16 @@ footer {
 	background: #953f55;
 }
 hr {
-	color: pink;
-	background: pink;
+	color: orange;
+	background: orange;
 	margin: 50px 0;
 }
-img {
+img, .project {
 	width: 275px;
 	height: 300px;
 	border: pink solid 1px;
 }
+#project-1{background:url("https://media.giphy.com/media/3ov9kacqGycKQRH6Vy/giphy.gif");}
+#project-2{background:url("https://media.giphy.com/media/l378wGtG2aQgZJT32/giphy.gif"); }
+#project-3{background:url("https://media.giphy.com/media/3ov9kaW3wyiefU3GGA/giphy.gif");}
+article h5, article h6{display:inline; margin: 0 30px;}
