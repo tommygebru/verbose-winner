@@ -1,3 +1,6 @@
+/*******************************************
+B A S E   S T Y L E S
+*******************************************/
 body {
 	display: flex;
 	justify-content: center;
@@ -7,7 +10,7 @@ body {
 	color: aliceblue;
 	font-family: 'Asar', serif;
 }
-container {
+main {
 	width: 1000px;
 }
 body, header, section, article, footer {
@@ -25,6 +28,15 @@ header, section, article, footer {
 article {
 	width: inherit;
 }
+hr {
+	color: orange;
+	background: orange;
+	margin: 50px 0;
+}
+
+/*******************************************
+T Y P O G R A P H Y
+*******************************************/
 a {
 	font-family: 'Merriweather Sans', sans-serif;
 	color: aliceblue;
@@ -45,11 +57,10 @@ footer li, main ul li {
 footer {
 	background: #953f55;
 }
-hr {
-	color: orange;
-	background: orange;
-	margin: 50px 0;
-}
+/*******************************************
+E L E M E N T S
+*******************************************/
+
 img, .project {
 	width: 275px;
 	height: 300px;
